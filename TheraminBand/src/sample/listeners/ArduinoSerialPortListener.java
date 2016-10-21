@@ -10,7 +10,7 @@ import sample.Main;
  * Created by batman on 19/10/16.
  */
 public class ArduinoSerialPortListener implements SerialPortDataListener {
-    private static final String PORT_NAME = "/dev/cu.usbmodem1411";
+    private static final String PORT_NAME = "/dev/cu.usbmodem1421";
 
     private SerialPort mCommunicationPortWithArduino;
     private Main mApplication;
